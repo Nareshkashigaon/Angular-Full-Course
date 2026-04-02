@@ -1,0 +1,5 @@
+<div>
+  <h1>Parent to Child Data Passing Example</h1>
+  <h1>My name is {{ name }}</h1>
+  <app-child [parent]="parentFn" [parentMessage]="parentMsg" (nameChange)="parentFn($event)"> </app-child>
+</div>
